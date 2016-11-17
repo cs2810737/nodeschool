@@ -1,0 +1,7 @@
+@mixin _border($thickness, $style){
+	border-width: $thickness;
+	border-style: $style;
+
+}
+
+img { @include _border(10px, solid ) }
